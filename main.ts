@@ -1,9 +1,19 @@
-let Time = ""
+let State = 1
+scene.setBackgroundColor(1)
 game.splash("Welcome!", "...to my clock app.")
-let Hours = 0
 forever(function () {
-    let Milliseconds = 0
-    let Seconds = 0
-    let Minutes = 0
-    Time = "" + Hours + ":" + Minutes + ":" + Seconds + "." + Milliseconds
+    if (State == 1) {
+    	
+    } else {
+        if (State == 1) {
+        	
+        } else {
+        	
+        }
+    }
+})
+forever(function () {
+    if (State == 1) {
+    	
+    }
 })
