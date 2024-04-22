@@ -22,120 +22,6 @@ f f f 1 1 1 1 1 1 1 1 1 . . . .
 f f f 1 1 1 1 1 1 1 1 1 . . . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "image2":
-            case "Digit2":return img`
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image3":
-            case "Digit3":return img`
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image4":
-            case "Digit4":return img`
-f f f 1 1 1 1 1 1 f f f . . . . 
-f f f 1 1 1 1 1 1 f f f . . . . 
-f f f 1 1 1 1 1 1 f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image5":
-            case "Digit5":return img`
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image6":
-            case "Digit6":return img`
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f . . . . . . 1 1 1 . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image7":
-            case "Digit7":return img`
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-1 1 1 1 1 1 1 1 1 f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image8":
             case "Digit8":return img`
 f f f f f f f f f f f f . . . . 
@@ -153,44 +39,6 @@ f f f . . . . . . f f f . . . .
 f f f f f f f f f f f f . . . . 
 f f f f f f f f f f f f . . . . 
 f f f f f f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image9":
-            case "Digit9":return img`
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-1 1 1 . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "image11":
-            case "DigitBlank":return img`
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
-1 1 1 . . . . . . 1 1 1 . . . . 
-1 1 1 . . . . . . 1 1 1 . . . . 
-1 1 1 . . . . . . 1 1 1 . . . . 
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
-1 1 1 . . . . . . 1 1 1 . . . . 
-1 1 1 . . . . . . 1 1 1 . . . . 
-1 1 1 . . . . . . 1 1 1 . . . . 
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
-1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
 . . . . . . . . . . . . . . . . 
 `;
             case "image12":
@@ -345,25 +193,6 @@ f f f f f f f f f f f f . . . .
 . . . . . . . . . f f f . . . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "image20":
-            case "Digit8-2":return img`
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f . . . . . . f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-f f f f f f f f f f f f . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image21":
             case "Digit9-2":return img`
 f f f f f f f f f f f f . . . . 
@@ -467,14 +296,6 @@ f . . . f . . . f . . f . f . . . f f . .
 f . . . f . . . f . . f . f . . . f . f . 
 f f f . f f f . f f f f . f f f . f . . f 
 `;
-            case "image26":
-            case "AM":return img`
-f f f . f . . . f 
-f . f . f f . f f 
-f f f . f . f . f 
-f . f . f . . . f 
-f . f . f . . . f 
-`;
             case "image27":
             case "PM":return img`
 f f f . f . . . f 
@@ -486,6 +307,185 @@ f . . . f . . . f
             case "image29":
             case "Blank":return img`
 . 
+`;
+            case "image11":
+            case "DigitBlank":return img`
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+1 1 1 . . . . . . 1 1 1 . . . . 
+1 1 1 . . . . . . 1 1 1 . . . . 
+1 1 1 . . . . . . 1 1 1 . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+1 1 1 . . . . . . 1 1 1 . . . . 
+1 1 1 . . . . . . 1 1 1 . . . . 
+1 1 1 . . . . . . 1 1 1 . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image26":
+            case "AM":return img`
+f f f . f . . . f 
+f . f . f f . f f 
+f f f . f . f . f 
+f . f . f . . . f 
+f . f . f . . . f 
+`;
+            case "image2":
+            case "Digit2":return img`
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image3":
+            case "Digit3":return img`
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image4":
+            case "Digit4":return img`
+f f f 1 1 1 1 1 1 f f f . . . . 
+f f f 1 1 1 1 1 1 f f f . . . . 
+f f f 1 1 1 1 1 1 f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image5":
+            case "Digit5":return img`
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image6":
+            case "Digit6":return img`
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f . . . . . . 1 1 1 . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image7":
+            case "Digit7":return img`
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+1 1 1 1 1 1 1 1 1 f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image20":
+            case "Digit8-2":return img`
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image9":
+            case "Digit9":return img`
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+1 1 1 . . . . . . f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+f f f f f f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
 `;
         }
         return null;
