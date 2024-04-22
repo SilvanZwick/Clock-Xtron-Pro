@@ -4,7 +4,11 @@
     "dependencies": {
         "device": "*",
         "controller": "*",
-        "sevenseg": "*"
+        "sevenseg": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "radio-broadcast": "*",
+        "xtronpro-util": "github:tsunyi/pxt-xtronpro-util#75cd706c3d9c4ce2af3cab7e8afd40c586019df8",
+        "xtronpro-rtc": "github:tsunyi/pxt-xtronpro-rtc#v0.2.2"
     },
     "files": [
         "main.blocks",
@@ -13,7 +17,9 @@
         "assets.json",
         "main.py",
         "images.g.jres",
-        "images.g.ts"
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"

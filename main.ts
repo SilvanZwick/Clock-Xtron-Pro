@@ -1,19 +1,22 @@
-let State = 1
+namespace SpriteKind {
+    export const Passive = SpriteKind.create()
+}
 scene.setBackgroundColor(1)
-game.splash("Welcome!", "...to my clock app.")
-forever(function () {
-    if (State == 1) {
-    	
-    } else {
-        if (State == 1) {
-        	
-        } else {
-        	
-        }
-    }
-})
-forever(function () {
-    if (State == 1) {
-    	
-    }
-})
+let Title = sprites.create(assets.image`Title`, SpriteKind.Passive)
+Title.setPosition(80, 15)
+Title.setScale(4, ScaleAnchor.Middle)
+let Hrs1 = sprites.create(assets.image`Digit0`, SpriteKind.Passive)
+Hrs1.setPosition(33, 60)
+Hrs1.setScale(2, ScaleAnchor.Middle)
+let Hrs2 = sprites.create(assets.image`Digit0`, SpriteKind.Passive)
+Hrs2.setPosition(63, 60)
+Hrs2.setScale(2, ScaleAnchor.Middle)
+let Colon = sprites.create(assets.image`Colon`, SpriteKind.Passive)
+Colon.setPosition(93, 60)
+Colon.setScale(2, ScaleAnchor.Middle)
+let Min1 = sprites.create(assets.image`Digit0`, SpriteKind.Passive)
+Min1.setPosition(105, 60)
+Min1.setScale(2, ScaleAnchor.Middle)
+let Min2 = sprites.create(assets.image`Digit0`, SpriteKind.Passive)
+Min2.setPosition(135, 60)
+Min2.setScale(2, ScaleAnchor.Middle)
