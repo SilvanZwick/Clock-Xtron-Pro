@@ -139,6 +139,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Digit9"
     },
+    "image28": {
+        "data": "hwQ5AAUAAAAAAgAAICIAAAICAgAAAgAAAAIAAAAAAAAAAAIAACAAAAACAAAgAAAAAgAAAAAAAAAAAgAAAAIAAAICAgAgIgAAAAIAAAAAAADw8AAA8PAAAPDwAAAAAAAA/w8PAA8PDwAP/w8AAAAAAPD/AAAAAA8AAPAAAAAADwDw/wAAAAAAAA//DwAAAAAA8AAAAP//DwDwAAAAAAAAAAD/DwAADw8AAAAAAP//DwAADwAAAPAPAAAAAAAAAAAAD/AAAA8PDwDw/w8AAAAAAP//DwAPDwAA8AAAAAAAAAD//w8ADw8AAPAAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Controls"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",

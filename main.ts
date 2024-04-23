@@ -1,5 +1,12 @@
+enum RadioMessage {
+    message1 = 49434,
+    Open_Settings = 42499
+}
 namespace SpriteKind {
     export const Passive = SpriteKind.create()
+}
+if (!(blockSettings.exists("12/24HR"))) {
+    blockSettings.writeNumber("12/24HR", 12)
 }
 scene.setBackgroundColor(1)
 let Title = sprites.create(assets.image`Title`, SpriteKind.Passive)
@@ -23,6 +30,9 @@ Min2.setScale(2, ScaleAnchor.Middle)
 let AMPM = sprites.create(assets.image`AM`, SpriteKind.Passive)
 AMPM.setPosition(80, 90)
 AMPM.setScale(4, ScaleAnchor.Middle)
+let Controls = sprites.create(assets.image`Controls`, SpriteKind.Passive)
+Controls.setPosition(80, 110)
+Controls.setScale(2, ScaleAnchor.Middle)
 forever(function () {
     if (rtc.stringFormatTime("hh").charAt(0) == "0") {
         Hrs1.setImage(assets.image`Digit0`)
